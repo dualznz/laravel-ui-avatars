@@ -29,7 +29,7 @@ You just require using composer and you're good to go!
 
 ```bash
 
-composer  require  dualznz/laravel-ui-avatars
+composer require dualznz/laravel-ui-avatars
 
 ```
 
@@ -49,7 +49,7 @@ To setup the config file, you publish it like so:
 
 ```bash
 
-php  artisan  vendor:publish  --provider="Dualznz\UIAvatars\UIAvatarsServiceProvider"
+php artisan vendor:publish --provider="Dualznz\UIAvatars\UIAvatarsServiceProvider"
 
 ```
 
@@ -71,9 +71,9 @@ You can edit the file in `config/ui-avatars.php`.
 
 // ...
 
-class  User  extends  Authenticatable  {
+class User extends Authenticatable {
 
-use  \Dualznz\UIAvatars\HasAvatar;
+use \Dualznz\UIAvatars\HasAvatar;
 
 // ...
 
@@ -93,9 +93,9 @@ This method is practically a proxy to call the `HasAvatar` methods. It will retu
 
 ```php
 
-public  function  getAvatar(  $size  =  64  )  {
+public function getAvatar($size = 64) {
 
-return  $this->getGravatar(  $this->email,  $size  );
+return  $this->getGravatar($this->email, $size);
 
 }
 
@@ -117,9 +117,9 @@ Assuming you're not using the default `User` Model in Laravel, you can override 
 
 ```php
 
-public  function  getAvatarNameKey(  )  {
+public function getAvatarNameKey() {
 
-return  'full_name';
+return 'full_name';
 
 }
 
@@ -155,7 +155,7 @@ Example usage:
 
 ```html
 
-<img  src="{{ $user->getUrlfriendlyAvatar() }}"  />
+<img src="{{ $user->getUrlfriendlyAvatar() }}" />
 
 ```
 
