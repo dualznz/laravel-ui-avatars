@@ -1,9 +1,9 @@
 <?php
 
-namespace Rackbeat\UIAvatars\Generators;
+namespace Dualznz\UIAvatars\Generators;
 
 use LasseRafn\InitialAvatarGenerator\InitialAvatar;
-use Rackbeat\UIAvatars\AvatarGeneratorInterface;
+use Dualznz\UIAvatars\AvatarGeneratorInterface;
 
 class ApiGenerator implements AvatarGeneratorInterface
 {

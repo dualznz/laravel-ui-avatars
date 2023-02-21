@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) 2018 Rackbeat & Lasse Rafn <lra@rackbeat.com>
+Copyright (c) 2018 Rackbeat & Lasse Rafn <lra@rackbeat.com> Updated rto support Laravel 10 by dualznz <dualz.nz@gmail.com>
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
