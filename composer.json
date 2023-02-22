@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DUalznz\\UIAvatars\\": "src/"
+            "Dualznz\\UIAvatars\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "UIAvatars\\Tests\\": "tests/"
+            "Dualznz\\UIAvatars\\Tests\\": "tests/"
         }
     },
     "config": {
